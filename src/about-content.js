@@ -1,5 +1,5 @@
 
-import giovanniImage from "./giovannis.jpg";
+import giovanniPeople from "./whoweare.jpg";
 
 const loadAboutContent = () => {
 
@@ -7,7 +7,7 @@ const loadAboutContent = () => {
 
     const heroImage = document.createElement("img");
     heroImage.classList.add("heroImage");
-    heroImage.src = giovanniImage;
+    heroImage.src = giovanniPeople;
 
     const heroHeader = document.createElement("h1");
     heroHeader.classList.add("heroHeader");
@@ -15,7 +15,7 @@ const loadAboutContent = () => {
 
     const subtitle = document.createElement("p");
     subtitle.classList.add("subtitle");
-    subtitle.textContent = "Pure-bred Italians here to colonize Africa from the south";
+    subtitle.textContent = "Pure-bred Italians here to share the beauty of Italian food in Cape Town";
 
     contentDiv.appendChild(heroImage);
     contentDiv.appendChild(heroHeader);

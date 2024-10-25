@@ -1,6 +1,6 @@
 
 
-import giovanniImage from "./giovannis.jpg";
+import giovanniMenu from "./menu.jpg";
 
 const loadMenuContent = () => {
 
@@ -8,7 +8,7 @@ const loadMenuContent = () => {
 
     const heroImage = document.createElement("img");
     heroImage.classList.add("heroImage");
-    heroImage.src = giovanniImage;
+    heroImage.src = giovanniMenu;
 
     const heroHeader = document.createElement("h1");
     heroHeader.classList.add("heroHeader");
